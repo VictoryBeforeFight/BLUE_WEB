@@ -1,0 +1,42 @@
+*{
+.noto-serif kr-regular {
+    font-family: "Noto Serif KR", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+          list-style: none;
+          text-decoration: none;
+          border-collapse: collapse;
+          margin: 0px;
+          padding: 0px;
+          color: black;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    background: red;
+    height: 86px;
+}
+
+.home_main{
+    width: 300px;
+    height: 40px;
+    background: green;
+    margin-top: 24px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+    background: blue;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
